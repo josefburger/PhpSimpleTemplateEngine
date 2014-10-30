@@ -39,7 +39,7 @@ class TemplateEngine {
     }
 
     /**
-     * Add one parameter in engine congifuration
+     * Add one parameter to engine congifuration
      * @param string $key paramater key
      * @param mixed $value
      */
@@ -48,7 +48,7 @@ class TemplateEngine {
     }
 
     /**
-     * Add more parameters in engine configuration
+     * Add more parameters to engine configuration
      * @param array $params (key => value)
      * @param string $keyPrefix key prefix
      */
