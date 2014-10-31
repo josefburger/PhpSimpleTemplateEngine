@@ -102,7 +102,7 @@ class TemplateEngine {
      * @return string
      */
     private function getKeyFromTag($tag) {
-    $tag = str_replace('{{', '', $tag);
+        $tag = str_replace('{{', '', $tag);
         $tag = str_replace('}}', '', $tag);
         return $tag;
     }
