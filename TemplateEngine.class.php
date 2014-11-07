@@ -9,7 +9,7 @@
  * @version 1.0.0
  */
 class TemplateEngine {
-    private static $ENGINE_PATTERN = '/(\{\{[a-zA-Z0-9._-]{3,50}+\}\})/i';
+    private static $ENGINE_PATTERN = '/(\{\{[a-zA-Z0-9._-]{3,50}\}\})/i';
 
     protected $plainTemplate;
     protected $parameters = Array();
